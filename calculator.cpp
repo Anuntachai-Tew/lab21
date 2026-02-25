@@ -111,7 +111,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     wc.hInstance = hInstance;
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 
-    // 🔥 เปลี่ยนพื้นหลังเป็นสีม่วง
     wc.hbrBackground = CreateSolidBrush(RGB(128, 0, 128));
 
     wc.lpszClassName = "WindowClass";
